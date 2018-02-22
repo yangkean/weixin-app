@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "myPages/flex/flex",
+    "myPages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#fbf9fe",
+    "navigationBarBackgroundColor": "#09ba07",
+    "navigationBarTitleText": "牛刀小试",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#2EBF76",
+    "borderStyle": "white",
+    "backgroundColor": "#f6f8f9",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "myPages/flex/flex",
+        "text": "布局"
+      },
+      {
+        "pagePath": "myPages/list/list",
+        "text": "列表"
+      }
+    ]
+  }
+}
